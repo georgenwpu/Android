@@ -1,0 +1,19 @@
+package noise;
+
+import com.example.noise.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class mainActivity extends Activity{
+
+	TextView sound = (TextView) findViewById(R.id.sound);
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.main);
+		
+	}
+}
